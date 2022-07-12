@@ -10,12 +10,12 @@
 
 ### Utilisation du programme
 
-Après le lancement de la commande `npm run start`, les instructions apparaissent dans le terminal. Les différentes options possibles sont :
-● Lancer le programme de test tel que défini au paragraphe "Test 1" ci-dessous.
-● Configurer la salle à nettoyer (saisir au clavier un nombre pour l'axe X suivi d'un nombre pour l'axe Y)
-● Positionner le robot aspirateur dans la pièce (saisir d'abord la position sur l'axe X du robot puis celle sur l'axe Y et terminer par l'orientation du robot en indiquant la lettre N, S, E ou W.)
-● Entrer un programme de nettoyage (saisir une suite de caractères au clavier permettant au robot de comprendre le parcours qu'il doit suivre. Les options possibles sont A pour avancer, D pour tourner de 90° vers la droite ou G pour tourner de 90° vers la gauche. Par exemple DAAAGAADA est une saisie valide, mais DARGAADA n'en est pas une).
-● Afficher la configuration actuelle du robot, afin de vérifier qu'il a été correctement paramétré.
+Après le lancement de la commande `npm run start`, les instructions apparaissent dans le terminal. Les différentes options possibles sont :  
+● Lancer le programme de test tel que défini au paragraphe "Test 1" ci-dessous.  
+● Configurer la salle à nettoyer (saisir au clavier un nombre pour l'axe X suivi d'un nombre pour l'axe Y).  
+● Positionner le robot aspirateur dans la pièce (saisir d'abord la position sur l'axe X du robot puis celle sur l'axe Y et terminer par l'orientation du robot en indiquant la lettre N, S, E ou W).  
+● Entrer un programme de nettoyage (saisir une suite de caractères au clavier permettant au robot de comprendre le parcours qu'il doit suivre. Les options possibles sont A pour avancer, D pour tourner de 90° vers la droite ou G pour tourner de 90° vers la gauche. Par exemple DAAAGAADA est une saisie valide, mais DARGAADA n'en est pas une).  
+● Afficher la configuration actuelle du robot, afin de vérifier qu'il a été correctement paramétré.  
 ● Exécuter le programme choisi.
 
 En cas de saisie d'une donnée invalide dans l'une des catégories, par exemple une lettre pour la position du robot ou encore un positionnement du robot en dehors de la pièce, pas de panique, ce dernier est configuré pour automatiquement utiliser ses paramètres par défaut.
@@ -41,9 +41,9 @@ dans la direction à laquelle elle fait face, et sans modifier son orientation.
 
 On définit que la case directement au Nord de la position (x, y) a pour coordonnées (x, y+1).
 
-Pour programmer l’aspirateur, on lui fournit des données en entrée:
-● Les dimensions de la grille à savoir le nombre de carrés sur l’axe x puis y.
-● La position initiale de l’aspirateur, ainsi que son orientation.
+Pour programmer l’aspirateur, on lui fournit des données en entrée:  
+● Les dimensions de la grille à savoir le nombre de carrés sur l’axe x puis y.  
+● La position initiale de l’aspirateur, ainsi que son orientation.  
 ● Une série d'instructions que l’aspirateur exécutera.
 
 Lorsque l’aspirateur achève une série d'instruction, il communique sa position et son orientation.
