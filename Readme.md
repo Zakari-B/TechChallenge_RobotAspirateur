@@ -1,14 +1,14 @@
-### Initialisation
+## Initialisation
 
 - Clonez ce repo puis ouvrez le avec votre éditeur de code favori
 - Utilisez une fenêtre de terminal pour lancer la commande `npm run setup` afin de télécharger les dépendances.
 
-### Commandes disponibles
+## Commandes disponibles
 
 - `npm run build` : Permet de recompiler le fichier .js à partir du fichier source .ts si ce dernier a été modifié.
 - `npm run start` : Démarre le programme de gestion du robot aspirateur.
 
-### Utilisation du programme
+## Utilisation du programme
 
 Après le lancement de la commande `npm run start`, les instructions apparaissent dans le terminal. Les différentes options possibles sont :  
 ● Lancer le programme de test tel que défini au paragraphe "Test 1" ci-dessous.  
@@ -20,9 +20,9 @@ Après le lancement de la commande `npm run start`, les instructions apparaissen
 
 En cas de saisie d'une donnée invalide dans l'une des catégories, par exemple une lettre pour la position du robot ou encore un positionnement du robot en dehors de la pièce, pas de panique, ce dernier est configuré pour automatiquement utiliser ses paramètres par défaut.
 
-### Rappel du challenge
+## Rappel du challenge
 
-## Description
+### Description
 
 La société “iHoover” a décidé de développer un aspirateur automatique.
 
@@ -48,7 +48,7 @@ Pour programmer l’aspirateur, on lui fournit des données en entrée:
 
 Lorsque l’aspirateur achève une série d'instruction, il communique sa position et son orientation.
 
-## Objectif
+### Objectif
 
 Concevoir et développer une application permettant de paramétrer la dimension de la grille, de
 positionner l’aspirateur et d’exécuter une liste d’instructions. On doit alors pouvoir connaître sa
@@ -60,7 +60,7 @@ classe ou des tests unitaires.
 
 L’utilisation de librairie ou framework tierce est autorisée.
 
-## Test 1
+### Test 1
 
 Dimension de la grille : x=10 y=10  
 Position initiale de l’aspirateur : x=5 y=5 orientation=N  
