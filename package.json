@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "@types/prompt-sync": "^4.1.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "prompt-sync": "^4.2.0",
+    "source-map-loader": "^4.0.0"
+  }
+}
